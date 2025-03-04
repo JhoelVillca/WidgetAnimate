@@ -21,7 +21,7 @@ function App() {
     const fetchSpotifyData = async () => {
       try {
         setLoading(true);
-        const response = await fetch('https://novatorem-spotify-git-main-jhoel-villcas-projects.vercel.app/api/spotify');
+        const response = await fetch('https://novatorem.vercel.app/api/spotify');
         
         if (!response.ok) {
           throw new Error('Failed to fetch Spotify data');
